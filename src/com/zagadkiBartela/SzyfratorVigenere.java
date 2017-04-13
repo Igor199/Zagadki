@@ -14,13 +14,15 @@ public class SzyfratorVigenere {
         liczba = litera;
         int wynik = 0;
 
-        for (int j = 0; j < pierwszaLiczba.length(); j++){
-            liczba = pierwszaLiczba.charAt(j);
-            liczbaSzyfrujaca = drugaLiczba.charAt(j%2);
+        for (int i = 0; i < pierwszaLiczba.length(); i++) {
+            liczba = pierwszaLiczba.charAt(i);
+            liczbaSzyfrujaca = drugaLiczba.charAt(i % drugaLiczba.length());
             liczba -= 96;
             liczbaSzyfrujaca -= 96;
-            wynik = (liczba + liczbaSzyfrujaca)%26;
+
+            wynik = (liczba + liczbaSzyfrujaca) % 26;
             System.out.print(wynik + " ");
+
         }
     }
 }
