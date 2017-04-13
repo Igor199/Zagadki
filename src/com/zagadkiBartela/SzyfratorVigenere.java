@@ -19,10 +19,8 @@ public class SzyfratorVigenere {
             liczbaSzyfrujaca = drugaLiczba.charAt(i % drugaLiczba.length());
             liczba -= 96;
             liczbaSzyfrujaca -= 96;
-
             wynik = (liczba + liczbaSzyfrujaca) % 26;
             System.out.print(wynik + " ");
-
         }
     }
 }
