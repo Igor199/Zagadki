@@ -7,7 +7,7 @@ public class DeszyfratorVigenere {
         Scanner wpisanaLiczba = new Scanner(System.in);
         String liczby = wpisanaLiczba.nextLine();
         String kluczDeszyfrujacy = wpisanaLiczba.nextLine();
-        
+
         int liczbaSzyfrujaca = 0;
         int wynikLiczbowy = 0;
         int zaszyfrowaneLiczby = 0;
