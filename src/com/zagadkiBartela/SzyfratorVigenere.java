@@ -23,7 +23,7 @@ public class SzyfratorVigenere {
             wynik = (liczba + liczbaSzyfrujaca) % 26;
             wynikTesktowy = (char)wynik;
             wynikTesktowy += 96;
-            System.out.println(wynikTesktowy + " ");
+            System.out.print(wynikTesktowy + " ");
         }
     }
 }
