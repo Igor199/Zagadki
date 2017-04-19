@@ -8,6 +8,7 @@ public class MetodaRoot13 {
         char literka = 0;
         int liczba = 0;
         String zaszyfrowanyWyraz = "";
+        char litery;
 
         for (int i = 0; i < N; i++) {
             literka = wyraz.charAt(i);
@@ -16,7 +17,9 @@ public class MetodaRoot13 {
             liczba = (liczba + 13) % 26;
             liczba += 1;
             //System.out.print(" " + liczba);
-            zaszyfrowanyWyraz = zaszyfrowanyWyraz + liczba + " ";
+            liczba += 96;
+            litery = (char)liczba;
+            zaszyfrowanyWyraz = zaszyfrowanyWyraz + litery + " ";
 
         }
         return zaszyfrowanyWyraz;

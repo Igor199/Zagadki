@@ -7,7 +7,7 @@ public class WywolywanieRoot13 {
         String szyfrowanyWyraz = wpisanyCiagZnakow.nextLine();
         MetodaRoot13 szyfrowanie = new MetodaRoot13();
 
-          String zaszyfr = szyfrowanie.szyfrator(szyfrowanyWyraz);
+        String zaszyfr = szyfrowanie.szyfrator(szyfrowanyWyraz);
 
         System.out.println(zaszyfr);
     }
