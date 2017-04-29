@@ -7,7 +7,6 @@ public class SzyfratorVigenere {
         Scanner wpisanaLiczba = new Scanner(System.in);
         String pierwszaLiczba = wpisanaLiczba.nextLine();
         String drugaLiczba = wpisanaLiczba.nextLine();
-        int N = pierwszaLiczba.length();
         char litera = 0;
         int liczba = 0;
         int liczbaSzyfrujaca = 0;
