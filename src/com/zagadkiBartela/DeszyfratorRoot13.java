@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.After;
 
 public class DeszyfratorRoot13 {
-    public static void main(String[] args) {
+    public String deszyfrator(String WpisanyCiagZnakow){
         //System.out.println(- 11%26);
         Scanner wpisanyCiagZnakow = new Scanner(System.in);
         int N = wpisanyCiagZnakow.nextInt();
@@ -22,10 +22,8 @@ public class DeszyfratorRoot13 {
             cyfra = (char) cyfry;
             wynik = wynik + cyfra + "  ";
         }
-
-        System.out.println(wynik);
+        return wynik;
     }
-
 }
 
 
