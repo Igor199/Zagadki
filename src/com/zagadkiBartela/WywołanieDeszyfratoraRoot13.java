@@ -9,6 +9,7 @@ public class WywołanieDeszyfratoraRoot13 {
 
         DeszyfratorRoot13 szyfrowanie = new DeszyfratorRoot13();
         String szyfr = szyfrowanie.deszyfrator(szyfrowanyWyraz);
+        System.out.println(szyfr);
 
     }
 }

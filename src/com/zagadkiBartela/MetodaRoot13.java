@@ -19,7 +19,7 @@ public class MetodaRoot13 {
             //System.out.print(" " + liczba);
             liczba += 96;
             litery = (char)liczba;
-            zaszyfrowanyWyraz = zaszyfrowanyWyraz + litery + " ";
+            zaszyfrowanyWyraz = zaszyfrowanyWyraz + litery;
 
         }
         return zaszyfrowanyWyraz;

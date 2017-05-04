@@ -8,7 +8,7 @@ public class DeszyfratorRoot13 {
     public String deszyfrator(String WpisanyCiagZnakow){
         //System.out.println(- 11%26);
         Scanner wpisanyCiagZnakow = new Scanner(System.in);
-        int N = wpisanyCiagZnakow.nextInt();
+        int N = wpisanyCiagZnakow.nextLine();
         int tablica[] = new int[N];
         char cyfra = 0;
         int cyfry = 0;
